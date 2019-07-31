@@ -22,6 +22,8 @@ public class GeocoderServiceTest {
                 "Mountain View", "CA");
         assertEquals(37.42, site.getLatitude(), 0.01);
         assertEquals(-122.08, site.getLongitude(), 0.01);
+
+        System.out.println(site);
     }
 
 }
